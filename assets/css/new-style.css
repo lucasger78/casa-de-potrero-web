@@ -1,0 +1,18 @@
+#info {
+    width: 100%;
+    height: calc(90vh - 110px);
+    background: url("../img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;    
+  }
+
+  .text-center{
+    padding-top: 6%;
+  }
+
+  .info-title{
+    color: whitesmoke;
+    font: size 3.5em;
+    font-weight: bold; 
+    text-transform: uppercase;
+  }
