@@ -27,7 +27,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-h6{
+h5{
   color: whitesmoke;
 }
 
@@ -1163,6 +1163,16 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Espacio entre las cajas */
+  flex-wrap: wrap; /* Por si en pantallas chicas se acomodan abajo */
+}
+
+
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1175,7 +1185,8 @@ section {
   color: #058491;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #14b7c7;
+  /* border: 2px dotted #14b7c7; */
+  
 }
 
 .contact .info-box h3 {
