@@ -1211,6 +1211,11 @@ section {
   
 }
 
+.contact .info-box:hover{
+  color: #fff;
+  background: #14b7c7;
+}
+
 .contact .info-box h3 {
   font-size: 20px;
   color: #777777;
