@@ -734,6 +734,28 @@ section {
   color: #fff;
 }
 
+.btn-casas {
+  background: #14b7c7;
+  font-size: 28px;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.btn-casas:hover {
+  background:  #fff ;
+  color: #14b7c7 ;
+}
+
+.btn-casas a {
+  color:#fff;
+}
+
+.btn-casas a:hover {
+  color:#14b7c7;
+}
+
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
